@@ -1,0 +1,450 @@
+/* CSS Document */
+
+body
+	{
+		margin:0px;
+		font-family:Arial;
+		font-size:12px;
+		background:#9f9f9f;
+
+	}
+
+#main
+	{
+	}
+
+.scroll {
+}
+
+.header
+	{
+		background:url(../images/headerbg.jpg) repeat-x;
+
+	}
+.headerimg
+	{
+		
+		padding-left:0px;
+
+	}
+.title
+	{
+float:right;
+		padding-left:20px;
+	}
+
+.navbar
+	{
+		background:url(../images/navbg.jpg);
+		height:44px;
+	}
+.nav
+	{
+
+		margin: 0px;
+		padding-left:30px;
+		padding-top:10px;
+		
+	}
+.nav ul
+	{
+		list-style:none;
+		margin: 0px;
+		padding: 0px;
+	}
+.nav li
+	{
+
+		margin: 0px;
+		padding: 0px;
+		display: inline;
+		float:left;
+		background:none !important;
+		position:relative;
+		top: -10px !important;
+
+	}
+.nav a, .nav a:visited
+	{
+		display:block;
+		color:#ffffff;
+		text-decoration:none;
+		padding-right:25px;
+		padding-left:25px;
+		padding-bottom:18px;
+		padding-top:10px;				
+		z-index:1;
+	}
+	
+.navbar a:hover
+	{
+		color:#ffffff;
+
+		background:url(../images/hover.jpg) repeat-x;
+		text-align:center;
+		padding-right:25px;
+		padding-left:25px;
+		padding-bottom:18px;
+		padding-top:10px;
+		
+	}
+
+.mainColumn
+	{
+		margin:0px;
+		padding-top:5px;
+		padding-left:5px;
+		padding-right:5px;
+	}
+	
+#leftColumn
+	{
+		float:left;
+		width:209px !important;
+		overflow:hidden;
+	}
+.column div
+	{
+		background:url(../images/left_column_bg.jpg) repeat-y left;
+		padding: 0px;
+		height: 1%;
+	}
+
+.column h3
+	{
+		color:#ffffff;
+		margin: 0px;
+		text-align:left;
+		width:209px;
+		position:relative;
+		padding:8px;
+		padding-left: 20px;
+		padding-top: 12px;
+		font-size: 1.2em;
+		font-weight:bold;
+	}
+.inner_content
+	{
+		padding-top:15px;
+		padding-right:5px;
+		padding-left:8px;
+		padding-bottom:5px;
+	}
+.column div div
+	{
+		background:url(../images/left_column_header.jpg) no-repeat left top;
+	}
+.column div div div
+	{
+		background: none;
+		background:url(../images/left_column_bottom.jpg) no-repeat left bottom;		
+	}
+.column div div div div
+	{
+		background: none;
+		padding-bottom:20px;
+	}
+.column div div div div h3
+	{
+		color:#FFFFFF;
+	}
+.column ul
+	{
+		margin: 0px;
+		padding: 0px;
+		list-style:none;
+		border-top: solid 1px #aeaeae;		
+		margin-left: 8px;
+		margin-right: 11px;
+		
+	}
+.column li
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+.column li a, .column li a:visited
+	{
+		display:block;
+		margin: 0px;
+		padding: 3px;
+		border-bottom: solid 1px #aeaeae;
+		color: #545454;
+		width:93%;
+		font-weight:bold;
+		padding-left: 10px;
+		text-decoration:none;
+	}
+.module_menu li a:hover
+	{
+		background: url(../images/left_nav_bg.jpg) repeat-x;
+		color: #ffffff;
+		
+	}
+
+.contentColumn
+	{
+		margin-left:220px;
+	}
+#rightColumn
+	{
+		float:right;
+		width:209px !important;
+		overflow:hidden;
+	}
+#inner_contentColumn
+	{
+		margin-right:220px;
+		background: #fefefe;
+	}
+.mc
+	{
+		height: 1%;	
+		border-top: solid 6px #9f9f9f;
+	}
+#inner_contentColumn_full
+	{
+		background: #fefefe;
+	}
+.column div div div div div
+	{
+		padding: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+.column div div div div div div
+	{
+		padding: 0px;
+	}
+a, a:visited
+	{
+		color: #565656;
+	}
+.column div div div div div div a
+	{
+		text-decoration:none;
+	}
+.module div div form
+	{
+		padding-top: 10px;
+		margin-left: 5px;
+		margin-right: 10px;
+	}
+.column div div div div div div a:hover
+	{
+		color: #660033;
+	}
+.column fieldset
+	{
+		width: 160px;
+		margin: auto;
+		border:none;
+	}
+
+	
+/* JOOMLA SPECFIC CSS */
+.contentheading
+	{
+		font-size: 1.5em;
+	}
+.article_column
+	{
+		padding: 10px;
+	}
+.column_separator
+	{
+		border-left: solid 1px;
+	}
+.sectiontableentry1
+	{
+		text-align: left;
+		padding: 3px;
+		background: #efefef;
+	}
+.sectiontableentry1 td, .sectiontableentry2 td
+	{
+		padding: 3px;
+	}
+.sectiontableentry2
+	{
+		text-align: left;
+		background: #bfbfbf;
+		padding:3px;
+	}
+.componentheading
+	{
+		border-bottom: solid 1px #aeaeae;
+		width:98%;
+		color: #787878;
+		font-size: 1.8em;
+	}
+.contentheading
+	{
+		background: #efefef;
+		padding: 5px;
+	}
+.buttonheading
+	{
+		background: #efefef;
+	}
+.contentpaneopen
+	{
+		margin: 0px;
+		border: solid 1px #efefef;
+		padding: 5px;
+	}
+.nopad
+	{
+		width: 99%;
+	}
+.mc div
+	{
+		background:url(../images/content_bottom_left.jpg) bottom left no-repeat;
+	}
+.mc div div
+	{
+		background:url(../images/content_bottom_right.jpg) bottom right  no-repeat;
+	}
+.mc div div div
+	{
+		background:url(../images/content_top_right.jpg) top right no-repeat;
+	}
+.mc div div div div
+	{
+		background:url(../images/content_top_left.jpg) top left no-repeat;
+		padding: 10px;
+		padding-top: 0px;
+	}
+.mc div div div div div
+	{
+		background: none;
+	}
+#footer a
+	{
+		color: #ffffff;
+	}
+#footer
+	{
+		background:#545454;
+		color: #ffffff;
+		text-align:center;
+		margin-top: 20px;
+		border-top: solid 1px #ffffff;
+		padding-top: 5px;
+		padding-bottom:10px;
+	}
+#footer_inner
+	{
+		background:url(../images/footerbg.jpg) repeat-x #787878;
+		color: #ffffff;
+		text-align: center;
+		padding-bottom: 230px;
+	}
+.module div div div
+	{
+		padding:5px;
+		padding-left:15px;
+		
+	}
+.module div div div h3
+	{
+		color:#303030;
+		margin:0px;
+		font-size:1.2em;
+		padding-top:10px;
+	}
+.module div div div  ul
+	{
+		margin:0px;
+		padding:0px;
+		
+	}
+.module div div div  li
+	{
+		margin:0px;
+		list-style:none;
+		padding:3px;
+		
+	}
+.module div div div div div
+	{
+		background:#f6f6f6;
+	}
+.mc ul
+	{
+		margin: 0px;
+		padding: 0px;
+		list-style:none;
+	}
+.mc li
+	{
+		margin: 0px;
+		padding: 0px;
+		background: url(../images/bullet2.jpg) no-repeat left;
+		padding-left: 25px !important;
+	}
+
+.module div div div li a
+	{	
+		color:#666666;
+	}
+.module div div div li a:hover
+	{
+		color:#000099;
+	}
+.module_menu div div div li 
+	{
+		list-style:none !important;
+	}
+.module_menu div div div li li
+	{
+		list-style:none;
+	}
+.pagenavbar a, .pagenavbar a:visited
+	{
+		width: 120px;
+		background: #7E2927;
+		border: solid 1px #ffffff;
+		color: #ffffff;
+		display:inline-table;
+		padding: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+.pagenavbar a:hover
+	{
+		background:#333333;
+	}
+.small
+	{
+		font-size: 0.8em;
+	}
+.contenttoc
+	{
+		background:#efefef;
+		color: #1a1a1a;
+		padding: 5px;
+	}
+.createdate
+	{
+		border-bottom: solid 1px #aeaeae;
+	}
+
+.latest .module div div div
+	{
+		background:url(../images/hm_img3.jpg) no-repeat left 40px;
+		padding-left:99px;
+	}
+.latest .module div div div h3
+	{
+		margin-left:-99px;
+	}
+.modifydate
+	{
+		font-size:0.8em;
+	}
+.contentpaneopen td p a, .contentpaneopen td p a:visited
+	{
+		color:#85761F;
+	}
+

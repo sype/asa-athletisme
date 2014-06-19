@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>themza_j15_01</name>
+	<version>1.0.4</version>
+	<creationDate>2008-06-12</creationDate>
+	<author>Themza Team</author>
+	<authorEmail>templates@themza.com</authorEmail>
+	<authorUrl>http://www.themza.com</authorUrl>
+	<copyright>ThemZa 2008</copyright>
+	<license>ThemZa TOS</license>
+	<description>Spirit of Nature</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		
+		<filename>images/content_top.jpg</filename>
+		<filename>images/footerbg.jpg</filename>
+		<filename>images/h3.jpg</filename>
+		<filename>images/header.jpg</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/index.html</filename>	
+		<filename>images/left_body.jpg</filename>
+		<filename>images/left_top.jpg</filename>
+		<filename>images/menu.jpg</filename>
+		<filename>images/menu_col.gif</filename>
+		<filename>images/menu_row.jpg</filename>
+		<filename>images/search_ico.jpg</filename>
+		<filename>images/searchbut.jpg</filename>
+		<filename>images/spacer.png</filename>
+		<filename>images/submenu_row.jpg</filename>
+		<filename>images/topbg.jpg</filename>
+		
+		<filename>css/index.html</filename>
+		<filename>css/template.css</filename>
+		<filename>css/editor.css</filename>
+
+		<filename>html/index.html</filename>
+		<filename>html/modules.php</filename>
+		<filename>html/pagination.php</filename>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+	<languages>
+		<language tag="en-GB">en-GB.tpl_themza_j15_01.ini</language>
+	</languages>
+	<administration>
+	    <languages folder="admin">
+			<language tag="en-GB">en-GB.tpl_themza_j15_01.ini</language>
+		</languages>
+    </administration>
+</install>

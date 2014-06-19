@@ -1,0 +1,46 @@
+.ja-megamenu a.over, .ja-megamenu a.active { color: #0080c0 !important; }
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level1 li.mega { border-top: 1px dotted #ff2a2a; border-top-style: solid ; border-width: thin ; border-color:red ; }
+
+.ja-megamenu ul.level1 li.first { border-top: 0; color:#ff2a2a; }
+
+.ja-megamenu ul.level1 li.mega a.mega {
+	border: 0; color: #160000;  		/* Fond des top menus */
+}
+
+ /* CHILD CONTENT
+-----------------------------------*/           /* 1er niveau des menus, ici il faut mettre les contours du menu ... */
+.ja-megamenu .childcontent-inner {
+	background: #fff;
+	border: 1px solid red;
+	border-top: 0;
+	color: #333;
+}
+
+.ja-megamenu .level1 .childcontent-inner { border-top: 1px solid #ccc; }
+
+.ja-megamenu .childcontent .ja-moduletable { color: #333; }
+
+.ja-megamenu .childcontent .ja-moduletable h3 {
+	background: none;
+	border-bottom: 1px dotted #ccc;
+	text-transform: uppercase;
+}
+
+/* Grouped --- */
+.ja-megamenu .group-title { border-bottom: 1px solid #ccc; }
+
+.ja-megamenu .group-title .menu-title {
+	color: #333;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 115%;
+}
+
+.ja-megamenu .group-title .menu-desc {
+	color: #999;
+	padding-left: 0 !important;
+}

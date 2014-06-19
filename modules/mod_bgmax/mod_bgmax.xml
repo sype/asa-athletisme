@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+	<name>BgMax</name>
+	<version>1.5.2</version>
+	<creationDate>17-03-2011</creationDate>
+	<author>LMC-lomart</author>
+	<authoremail>lomart@lomart.fr</authoremail>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>BGMAX_DESC</description>
+	<description2>merci à www.webbricks.org pour son javascript bgmax</description2>
+
+	<files>
+		<filename>mod_bgmax.xml</filename>
+		<filename module="mod_bgmax">mod_bgmax.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>bgMax.min.js</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+     	<filename>elements/index.html</filename>
+     	<filename>elements/imgdir.php</filename>
+     	<filename>elements/cp.php</filename>
+     	<filename>elements/cp.js</filename>
+     	<filename>elements/cp.css</filename>
+     	<filename>elements/images/blank.gif</filename>
+     	<filename>elements/images/moor_arrows.gif</filename>
+     	<filename>elements/images/moor_boverlay.png</filename>
+     	<filename>elements/images/moor_cursor.gif</filename>
+     	<filename>elements/images/moor_slider.png</filename>
+     	<filename>elements/images/moor_woverlay.png</filename>
+     	<filename>elements/images/l.png</filename>
+     	<filename>elements/images/c.png</filename>
+     	<filename>elements/images/r.png</filename>
+	</files>
+	
+	<languages>
+		<language tag="fr-FR">language/fr-FR/fr-FR.mod_bgmax.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_bgmax.ini</language>
+    </languages>
+
+	<params addpath="/modules/mod_bgmax/elements/">
+     <param name="bgmaxDebug" type="list" default="0" label="Debug" description="DEBUG_DESC">
+          <option value="0">DEBUG_NO</option>
+          <option value="1">DEBUG_YES</option>
+          <option value="2">DEBUG_CONNECT</option>
+        </param>
+   	<param type="spacer" default="IMG_TITRE"/>
+   	<param type="spacer" default="IMG_NOTE"/>
+		<param name="image_path" type="text" default=""
+			size="100" label="IMAGE" description="IMAGE_DESC" />
+	   <param name="image_path_list" type="imgdir"
+	      label="IMAGELIST" directory="images/bgmax"
+	      hide_default="true" description="IMAGELIST_DESC" />
+    <param name="RandomFolder" type="folderlist" default="" 
+        label="RANDOM" description="RANDOM_DESC" directory="images" hide_default="true" />
+   	<param type="spacer"/>
+		<param name="bodyColor" type="cp" default=""  size="10"
+			label="BODYCOLOR" description="BODYCOLOR_DESC" />	
+		<param name="bodyColorAuto" type="radio" default="0" label="BODYCOLORAUTO"
+			description="BODYCOLORAUTO_DESC">
+			<option value="0">No</option>
+			<option value="1">COLORAUTOYES</option>
+		</param>
+		<param type="spacer" default="POS_TITRE"/>
+		<param name="mode" type="list" default="max" label="MODE"
+			description="MODE_DESC">
+			<option value="max">MODE_MAX</option>
+			<option value="full">MODE_FULL</option>
+			<option value="no-repeat">MODE_NONE</option>
+			<option value="repeat">MODE_REPEAT</option>
+			<option value="repeat-x">MODE_REPEATX</option>
+			<option value="repeat-y">MODE_REPEATY</option>
+		</param>
+		<param name="enlarge" type="radio" default="1" label="ENLARGE"
+			description="ENLARGE_DESC">
+			<option value="0">NO</option>
+			<option value="1">AUTHORIZED</option>
+		</param>
+		<param name="reduce" type="radio" default="0" label="REDUCE"
+			description="REDUCE_DESC">
+			<option value="0">NO</option>
+			<option value="1">AUTHORIZED</option>
+		</param>
+		<param name="position" type="list" default="absolute" label="POSITION"
+			description="POSITION_DESC">
+			<option value="absolute">POSITION_ABS</option>
+			<option value="fixed">POSITION_FIX</option>
+		</param>
+		<param name="align" type="list" default="center" label="ALIGN"
+			description="ALIGN_DESC">
+			<option value="left">ALIGN_LEFT</option>
+			<option value="center">ALIGN_CENTER</option>
+			<option value="right">ALIGN_RIGHT</option>
+		</param>
+		<param name="vertAlign" type="list" default="top" label="VERTALIGN"
+			description="VERTALIGN_DESC">
+			<option value="top">VALIGN_TOP</option>
+			<option value="center">VALIGN_CENTER</option>
+			<option value="bottom">VALIGN_BOTTOM</option>
+		</param>
+		<param name="zIndex" type="text" default="-1" size="5"
+			label="ZINDEX" description="ZINDEX_DESC" />	
+		<param name="ffHack" type="text" default="0px" size="5"
+			label="FFHACK" description="FFHACK_DESC" />	
+		<param type="spacer" default="FADE_TITRE"/>
+		<param name="fadeActive" type="radio" default="0" label="FADEACTIVE" description="FADEACTIVE_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="fadeAfter" type="text" default="0" size="5"
+			label="FADEAFTER" description="FADEAFTER_DESC" />	
+		<param name="fadeDuration" type="text" default="1000"  size="5"
+			label="FADEDURATION" description="FADEDURATION_DESC" />	
+		<param name="fadeFrameRate" type="text" default="30" size="5"
+			label="FADEFRAMERATE" description="FADEFRAMERATE_DESC" />	
+		<param type="spacer" default="CONTENT_TITRE"/>
+		<param name="contentSelector" type="text" default=""  size="30"
+			label="CONTENTSELECTOR" description="CONTENTSELECTOR_DESC" />	
+		<param name="contentColor" type="cp" default=""  size="10"
+			label="CONTENTCOLOR" description="CONTENTCOLOR_DESC" />	
+		<param name="contentOpacity" type="text" default="100%"  size="10"
+			label="CONTENTOPACITY" description="CONTENTOPACITY_DESC" />	
+		<param name="contentWidth" type="text" default=""  size="10"
+			label="CONTENTWIDTH" description="CONTENTWIDTH_DESC" />	
+		<param name="contentAlign" type="list" default="center" 
+      label="CONTENTALIGN" description="CONTENTALIGN_DESC">
+			<option value="left">ALIGN_LEFT</option>
+			<option value="center">ALIGN_CENTER</option>
+			<option value="right">ALIGN_RIGHT</option>
+		</param>
+		
+		
+		<param type="spacer" default="HEAD_TITRE"/>
+		<param name="headOther" type="textarea" default="" rows="8" cols="50"
+			label="HEADOTHER" description="HEADOTHER_DESC" />	
+
+  		<param name="headFile" type="filelist" label="HEADFILE" description="HEADFILE_DESC" directory="images/bgmax" filter="\.txt" hide_default="true" />
+            
+    		<param type="spacer" default="FILTER_TITRE"/>
+    		<param name="filterContent" type="textarea" default="" rows="4" cols="60" label="FILTER_LABEL" description="FILTER_DESC" />	
+    		<param type="spacer" default="FILTER_NOTE"/>
+
+		<param type="spacer" default="PERIOD_DESC"/>
+		<param name="debDate" type="calendar" default="" format="%d/%m/%Y"
+			label="DEBDATE" description="DEBDATE_DESC" />	
+		<param name="debTime" type="text" default="" size="5" format="99:99"
+			label="DEBTIME" description="DEBTIME_DESC" />	
+		<param name="endDate" type="calendar" default="" format="%d/%m/%Y"
+			label="ENDDATE" description="ENDDATE_DESC" />	
+		<param name="endTime" type="text" default="" size="5" format="99:99"
+			label="ENDTIME" description="ENDTIME_DESC" />	
+	</params>
+</install>

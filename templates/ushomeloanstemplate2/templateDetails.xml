@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>US Home Loans Template 2</name>
+	<creationDate>11/20/06</creationDate>
+	<author>Black iD Solutions</author>
+	<authorEmail>blackid@blackidsolutions.com</authorEmail>
+	<authorUrl>http://www.blackidsolutions.com</authorUrl>
+	<copyright>US Home Loans</copyright>
+	<license>NA</license>
+	<version>1.0.0</version>
+	<description>The US home loans template.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>css/template.css</filename>
+		<filename>css/ie_6.css</filename>
+		<filename>images/bullet2.jpg</filename>		
+		<filename>images/content_bottom_left.jpg</filename>
+		<filename>images/content_bottom_right.jpg</filename>
+		<filename>images/content_lefttop_border.jpg</filename>
+		<filename>images/content_righttop_border.jpg</filename>
+		<filename>images/content_top_left.jpg</filename>
+		<filename>images/content_top_right.jpg</filename>
+		<filename>images/content_topbg.jpg</filename>
+		<filename>images/footerbg.jpg</filename>
+		<filename>images/hm_img2.jpg</filename>
+		<filename>images/hm_img3.jpg</filename>
+		<filename>images/headerbg.jpg</filename>
+		<filename>images/headerimg.jpg</filename>
+		<filename>images/hover.jpg</filename>
+		<filename>images/hoverbg.jpg</filename>
+		<filename>images/left_column_bg.jpg</filename>
+		<filename>images/left_column_bottom.jpg</filename>
+		<filename>images/left_column_header.jpg</filename>
+		<filename>images/left_column_title.jpg</filename>
+		<filename>images/left_nav_bg.jpg</filename>
+		<filename>images/navbg.jpg</filename>
+		<filename>images/title.jpg</filename>
+		
+	</files>
+	<positions>
+		<position>breadcrumbs</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+</install>

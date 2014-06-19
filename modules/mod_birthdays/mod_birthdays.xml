@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Next Birthdays</name>
+	<author>Stefan Grumpelt</author>
+	<creationDate>2009-09-05</creationDate>
+	<copyright>(C) 2009 grumpelt-it.de All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>info@grumpelt-it.de</authorEmail>
+	<authorUrl>www.grumpelt-it.de</authorUrl>
+	<version>0.15</version>
+	<description>Birthdays Module for Community Builder</description>
+	<files>
+		<filename module="mod_birthdays">mod_birthdays.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>images/24/1.png</filename>
+        <filename>images/24/2.png</filename>
+        <filename>images/24/3.png</filename>
+        <filename>images/24/4.png</filename>
+        <filename>images/24/5.png</filename>
+        <filename>images/24/6.png</filename>
+        <filename>images/24/7.png</filename>
+        <filename>images/24/8.png</filename>
+        <filename>images/24/9.png</filename>
+        <filename>images/24/10.png</filename>
+        <filename>images/24/11.png</filename>
+        <filename>images/24/12.png</filename>
+        <filename>images/24/13.png</filename>
+        <filename>images/24/14.png</filename>
+        <filename>images/24/15.png</filename>
+        <filename>images/24/16.png</filename>
+        <filename>images/24/17.png</filename>
+        <filename>images/24/18.png</filename>
+        <filename>images/24/19.png</filename>
+        <filename>images/24/20.png</filename>
+        <filename>images/24/21.png</filename>
+        <filename>images/24/22.png</filename>
+        <filename>images/24/23.png</filename>
+        <filename>images/24/24.png</filename>
+        <filename>images/24/25.png</filename>
+        <filename>images/24/26.png</filename>
+        <filename>images/24/27.png</filename>
+        <filename>images/24/28.png</filename>
+        <filename>images/24/29.png</filename>
+        <filename>images/24/30.png</filename>
+        <filename>images/24/31.png</filename>
+        <filename>images/24/birthday.png</filename>
+	</files>
+	<params> 
+		<param name="field_birthdate" type="text" 
+			label="field birthday" default="cb_geburtstag" 
+			description="Type here the name of the field, where the birthdate is stored."/> 
+		<param name="count" type="text" 
+			label="count" default="5" 
+			description="Defines the count of the upcoming birthdays will be show by the module."/> 
+     	<param name="display_name" type="radio"
+            label="display name" default="1"
+            description="Defines which name will be shown by the module. Username or real name (firstname lastname)">
+        	<option value="1">real name</option>
+        	<option value="0">user name</option>
+    	</param>
+     	<param name="show_cblink" type="radio"
+            label="show CB Link" default="1"
+            description="Shows a link to the Community Builder Profile of the user.">
+        	<option value="1">Yes</option>
+        	<option value="0">No</option>
+    	</param>
+     	<param name="show_cal" type="radio" 
+            label="show calendar" default="1" 
+            description="Shows the calendar icon."> 
+        	<option value="1">Yes</option> 
+        	<option value="0">No</option> 
+    	</param> 
+     	<param name="show_age" type="radio" 
+            label="show age" default="1" 
+            description="Shows the age of the user."> 
+        	<option value="1">Yes</option> 
+        	<option value="0">No</option> 
+    	</param> 
+     	<param name="show_days" type="radio" 
+            label="show remaining days" default="1" 
+            description="Shows the remaining days until the birthday."> 
+        	<option value="1">Yes</option> 
+        	<option value="0">No</option> 
+    	</param> 
+		<param name="singular_day" type="text" 
+			label="singular day" default="day" 
+			description="Defines the singular string for DAY after the remaining days until birthday."/> 
+		<param name="plural_day" type="text" 
+			label="plural day" default="days" 
+			description="Defines the plural string for DAY, which will be shown after the remaining days until birthday."/> 
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+			
+    </params> 
+</install>
+
+
